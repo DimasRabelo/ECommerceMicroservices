@@ -1,0 +1,25 @@
+# Arquivos de Build, Binários e Cache
+#############################################
+[Bb]in/
+[Oo]bj/
+*.log
+*.suo
+*.user
+*.pdb
+
+# Dependencies
+#############################################
+/packages/
+/node_modules/
+
+# Database / Entity Framework
+#############################################
+# Ignora todos os arquivos SQLite gerados
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Pastas de cache do Entity Framework
+.vs/
+.history/
